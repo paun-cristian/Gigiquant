@@ -1,0 +1,1 @@
+time=2026-03-22T22:06:13.470+02:00 level=ERROR msg="FATAL ERROR DETECTED! failed to read tests.json: open /home/cristi/Desktop/Facultate/PA/Tema/project-data/gigiquant/src/tests.json: no such file or directory\n ABORTING!"
