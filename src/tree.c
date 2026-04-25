@@ -32,7 +32,7 @@ so first 10 chars will be for day 1
 next 10 for day 2
 and so on
 */
-void create_tree(int argc, char *argv[]) {
+void create_tree(int argc, const char* argv[]) {
 	TREENODE* root = create_tree_node();
 
 	if (argc < 3)

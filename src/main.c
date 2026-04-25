@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "data.h"
 #include "tree.h"
+#include "markov.h"
 
 int main(int argc, char *argv[]) {
 	int test_no = test_num(argv[1]);
@@ -15,6 +16,9 @@ int main(int argc, char *argv[]) {
 
 	if (test_no >= 11 && test_no <= 15)
 		create_tree(argc, argv);
+
+	// if (test_no >= 16 && test_no <= 20)
+	// 	create_markov_graph(argc, argv);
 
 	return 0;
 }

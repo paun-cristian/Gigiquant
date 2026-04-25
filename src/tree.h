@@ -31,7 +31,7 @@ typedef struct TREENODE {
 
 TREENODE* create_tree_node();
 void insert_symbols(char buffer[], TREENODE* root);
-void create_tree(int argc, char *argv[]);
+void create_tree(int argc, const char *argv[]);
 void free_tree(TREENODE* root);
 void insert_values(char buffer[], char movements[], double prev_day[],
 				   double curr_day[], int action_nr, int day);

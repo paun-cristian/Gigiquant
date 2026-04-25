@@ -7,7 +7,7 @@
 int N = 1;
 
 
-void read_data(int argc, char *argv[]) {
+void read_data(int argc, const char *argv[]) {
 	if (argc < 3)
 		exit(-1);
 
@@ -99,7 +99,7 @@ void print_stats(NODE* head, FILE *data_out) {
 	fprintf(data_out, "%.3f\n", sharpe_ratio);
 }
 
-void find_opportunity(int argc, char *argv[]) {
+void find_opportunity(int argc, const char *argv[]) {
 	if (argc < 3)
 		exit(-1);
 
@@ -184,7 +184,7 @@ int min_city_height(CITY_NODE** cities) {
 	return minimum_height;
 }
 
-int test_num(char test_name[]) {
+int test_num(const char test_name[]) {
 	int num = 0;
 
 	for (int i = 0; i < strlen(test_name); ++i) {
